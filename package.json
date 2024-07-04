@@ -1,0 +1,27 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "Backend for random number and carton generation",
+  "main": "server.jsgit status",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
