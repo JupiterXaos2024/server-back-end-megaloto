@@ -31,7 +31,7 @@ function startAutoGeneration(io) {
     }, delay);
 }
 
-// Función para detener la generación automática
+// Función para detener la generación automática de numeros
 function stopAutoGeneration() {
     if (intervalId) {
         clearTimeout(intervalId);
