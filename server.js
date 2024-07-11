@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const numeros = require('./components/numeros');
 const cartones = require('./components/cartones')
-const participantsRouter = require('./participants'); // Asegúrate de que la ruta sea correcta
+const participantsRouter = require('./components/participants'); // Asegúrate de que la ruta sea correcta
 
 
 //const mysql = require('./components/mysql');
