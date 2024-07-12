@@ -5,7 +5,6 @@ const cors = require('cors');
 
 const numeros = require('./components/numeros');
 const cartones = require('./components/cartones')
-const participantsRouter = require('./components/participants'); // Asegúrate de que la ruta sea correcta
 
 
 //const mysql = require('./components/mysql');
@@ -26,7 +25,6 @@ app.use(express.json()); // Para analizar cuerpos JSON
 // Rutas
 app.use('/numeros', numeros(io));
 app.use('/cartones', cartones(io));
-app.use('/participants', participantsRouter);
 
 //app.use('/mysql', mysql);
 
